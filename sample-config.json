@@ -1,22 +1,20 @@
 {
-    "bridge": {
-        "name": "Homebridge",
-        "username": "CD:22:3D:E3:CE:30",
-        "port": 51826,
-        "pin": "031-45-156"
-    },
-    
-    "description": "The Onion!",
+  "bridge": {
+    "name": "Homebridge",
+    "username": "CD:22:3D:E3:CE:30",
+    "port": 51826,
+    "pin": "031-45-156"
+  },
 
-    "platforms": [],
+  "description": "The Onion!",
 
-    "accessories": [
-        {
-            "accessory": "IRKit",
-            "name": "irkit control device",
-            "irkit_host": "irkitxxxxx.local",
-            "on_form": {"format":"raw","freq":38,"data":[]},
-            "off_form": {"format":"raw","freq":38,"data":[]},
-        }
-    ]
+  "platforms": [],
+
+  "accessories": [{
+    "accessory": "IRKit",
+    "name": "irkit control device",
+    "irkit_host": "irkitxxxxx.local",
+    "on_form": {"format":"raw","freq":38,"data":[]},
+    "off_form": {"format":"raw","freq":38,"data":[]},
+  }]
 }
